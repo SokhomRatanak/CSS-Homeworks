@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+               
+body>div{
+    width: 450pt;
+    margin: 10pt;
+}
+               
+.Divs-With-Border{
+	background: #000;
+	border: 1pt solid red;
+	border-radius: 40pt;
+	margin-right: 10%;
+}

@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin-top:  5pt;
+	padding: 5pt;
+	width: 650pt;
+}
+
+article p{
+	font-family: Consolas;
+	color: #0094ff;
+}
+
+p:first-letter{
+	font-size: 30pt;
+	font-family: Edwardian Script ITC;
+}
+
+p:first-line{
+	font-weight: bold;
+}

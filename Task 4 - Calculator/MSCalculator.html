@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<title>Calculator</title>
+		<link rel="stylesheet" href="MSCalculator-Styles.css" />
+	</head>
+
+	<body>
+		<div id="Window">
+			<img id="Calculator-icon" src="images/calculator-icon.png" alt="Calc.icon" />
+			<span id="Calculator-text">Calculator</span>
+			<img id="Most-upper-right-buttons" src="images/exit.png" alt="x-button"/>
+			
+			<div id="Menu">
+				<ul>
+					<li>View</li>
+					<li>Edit</li>
+					<li>Help</li>
+				</ul>
+			</div>
+			
+			<div id="TheRest">
+				<div id="The-Display"> 
+					<p>8854455</p>
+				</div>
+				
+				<div id="Binary-Representation-box">
+					<div class="binary-representation-line">
+						<div class="binary">0000</div>
+						<div class="binary">0000</div>
+						<div class="binary">0000</div>
+						<div class="binary">0000</div>
+						<div class="binary">0000</div>
+						<div class="binary">0000</div>
+						<div class="binary">0000</div>
+						<div class="binary">0000</div>
+					</div>
+					
+					<div class="binary-number-count">
+						<div class="bit-counter   first-counter">63</div>
+						<div class="bit-counter   second-counter">47</div>
+						<div class="bit-counter   third-counter">32</div>
+					</div>
+					
+					<div class="binary-representation-line">
+						<div class="binary">0000</div>
+						<div class="binary">0000</div>
+						<div class="binary">1000</div>
+						<div class="binary">0111</div>
+						<div class="binary">0001</div>
+						<div class="binary">1011</div>
+						<div class="binary">1011</div>
+						<div class="binary">0111</div>
+					</div>
+					
+					<div class="binary-number-count">
+						<div class="bit-counter  first-counter">31</div>
+						<div class="bit-counter  second-counter">15</div>
+						<div class="bit-counter"  id="Zero"> 0 </div>
+					</div>								
+				</div>
+				
+				<div class="Radio-buttons-big-container">
+					<div class="Radio-buttons-small-container">
+						<ul>
+							<li><input type="radio" name="numeral-system" value="Hex" />Hex</li>
+							<li><input type="radio" name="numeral-system" value="Dec" checked="checked"/>Dec</li>
+							<li><input type="radio" name="numeral-system" value="Oct" />Oct</li>
+							<li><input type="radio" name="numeral-system" value="Bin" />Bin</li>
+						</ul>
+					</div>
+					
+					<div class="Radio-buttons-small-container">
+						<ul>
+							<li><input type="radio" name="bit-word" value="Qword" checked="checked"/>Qword</li>
+							<li><input type="radio" name="bit-word" value="Dword" />Dword</li>
+							<li><input type="radio" name="bit-word" value="Word" />Word</li>
+							<li><input type="radio" name="bit-word" value="Byte" />Byte</li>
+						</ul>
+					</div>
+				</div>
+				
+				
+				
+				
+				
+				
+				<div class="Buttons">			
+			
+					<div class="row">
+						<button class="function empty dis" disabled="disabled"> </button>
+						<button class="function darker">Mod</button>
+						<button class="function dis" disabled="disabled">A</button>
+						<button class="function M-buttons">MC</button>
+						<button class="function M-buttons">MR</button>
+						<button class="function M-buttons">MS</button>
+						<button class="function M-buttons">M+</button>
+						<button class="function M-buttons">M-</button>
+					</div>
+					
+					<div class="row">
+						<button class="function darker">(</button>
+						<button class="function darker">)</button>
+						<button class="function dis" disabled="disabled">B</button>
+						<button class="function darker">←</button>
+						<button class="function darker">CE</button>
+						<button class="function darker">C</button>
+						<button class="function darker">±</button>
+						<button class="function dis" disabled="disabled">√</button>
+					</div>
+					
+					<div class="row">
+						<button class="function darker">RoL</button>
+						<button class="function darker">RoR</button>
+						<button class="function dis" disabled="disabled">C</button>
+						<button class="digit">7</button>
+						<button class="digit">8</button>
+						<button class="digit">9</button>
+						<button class="function darker">/</button>
+						<button class="function dis" disabled="disabled">%</button>
+					</div>
+					
+					<div class="row">
+						<button class="function darker">Or</button>
+						<button class="function darker">Xor</button>
+						<button class="function dis" disabled="disabled">D</button>
+						<button class="digit">4</button>
+						<button class="digit">5</button>
+						<button class="digit">6</button>
+						<button class="function darker">*</button>
+						<button class="function dis" disabled="">1/x</button>
+					</div>
+					
+					<div class="row">
+							<div class="row">
+								<button class="function darker">Lsh</button>
+								<button class="function darker">Rsh</button>
+								<button class="function dis" disabled="disabled">E</button>
+								<button class="digit">1</button>
+								<button class="digit">2</button>
+								<button class="digit">3</button>
+								<button class="function darker">-</button>
+							</div>
+							
+							<div class="row">
+								<button class="function darker">Not</button>
+								<button class="function darker">And</button>
+								<button class="function dis" disabled="disabled">F</button>
+								<button class="digit zero">0</button>
+								<button class="function dis" disabled="disabled">,</button>
+								<button class="function darker">+</button>
+							</div>						
+					</div>
+				</div>
+				
+				<div>
+					<button class="Equals-button darker">=</button>
+				</div>
+				
+			</div>
+		</div>
+		
+		
+		
+		
+	</body>
+</html>
